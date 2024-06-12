@@ -8,6 +8,7 @@ export class ComputerController {
     private cpuService: CpuService,
     private diskService: DiskService,
   ) {}
+  
 
   @Get()
   run() {
